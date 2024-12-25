@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "yooutube backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "javascript",
@@ -12,9 +13,5 @@
     "chai"
   ],
   "author": "shantanu rai",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.9",
-    "prettier": "^3.4.2"
-  }
+  "license": "ISC"
 }
