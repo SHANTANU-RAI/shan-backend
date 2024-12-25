@@ -7,6 +7,7 @@ dotenv.config({
     path: '.env'
 })
 
+// just to check if this file is being executed
 console.log('Starting application...');
 
 connectDB();
